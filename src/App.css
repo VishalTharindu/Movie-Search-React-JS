@@ -1,16 +1,14 @@
-html {
+/* html {
   font-size: 15px;
 }
 
 * {
   box-sizing: border-box;
-}
+} */
 
 body {
-  margin: 0;
-  padding: 0;
-  background-image: linear-gradient(to right, #307ef5, #4c8ff9, #649ffb, #7cb0fe, #94c0ff);
-}
+  background-image: linear-gradient(to right top, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #f6fbff, #e4f9ff, #cff9ff, #89fdf9, #2ffedc, #00fba8, #10f45f);
+} 
 
 .App {
   text-align: center;
@@ -51,7 +49,7 @@ body {
   }
 }
 .card {
-  background-image: linear-gradient(to right top, #103367, #113f7f, #124b98, #1357b1, #1464cb);
+  background-image: linear-gradient(to right top, #f9456c, #bf447a, #834572, #4f3d57, #2e2e2e);
   color:#fff;
 }
 .card__header {
@@ -72,7 +70,9 @@ body {
 .container {
   /* margin: 0 auto;
   max-width:1000px; */
-  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
 }
 
 .completeStyle{
@@ -112,4 +112,18 @@ width: 100%;
 
 display: block;
 
+}
+
+.image{
+  width: 650px;
+  margin-top: 50px;
+}
+
+@media(max-width :700px){
+  .container{
+  }
+
+  .image{
+    width: 100%;
+  }
 }

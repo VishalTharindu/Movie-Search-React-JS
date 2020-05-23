@@ -9,7 +9,8 @@ const Header = props =>{
                 <Col md={4}>
                 </Col>
                 <Col md={8}>
-                    <h1><b>React Move Search</b></h1>
+                    <h1><b>Shadow Movies</b></h1>
+                    <h6>All your favourite movies in one place</h6>
                 </Col>
             </Row>
             

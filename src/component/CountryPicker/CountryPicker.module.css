@@ -1,0 +1,19 @@
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.formControl{
+    width: 100%;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 100%){
+    .container{
+        margin-left: 300px;
+    }
+}
